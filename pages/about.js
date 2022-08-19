@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.mainArticle}>
         <div className={styles.articleHeader}>
           <a href="/">
-            <img src="/hnee.png" href="/sdfsd" alt="hnee-logo" width="auto" id={styles.hneeArticleHeader}/>
+            <img src="/hnee.png" href="/" alt="hnee-logo" width="auto" id={styles.hneeArticleHeader}/>
           </a>
         </div>
         <div className={styles.articleContainer}>

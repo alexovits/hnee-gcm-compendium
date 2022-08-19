@@ -11,18 +11,16 @@ export default function Home() {
         <meta name="description" content="Compendium" />
         <link rel="icon" href="../public/hnee-green.png" />
       </Head>
-
       <div className={styles.articleHeader}>
         <a href="/">
-          <img src="/hnee.png" href="/sdfsd" alt="hnee-logo" width="auto" id={styles.hneeArticleHeader}/>
+          <img src="/hnee.png" href="/" alt="hnee-logo" width="auto" id={styles.hneeArticleHeader}/>
         </a>
       </div>
       <div className={styles.mapContainer}>
-      <MapInteractionCSS>
-        <img src="poster/worldwide.jpg" width={'auto'} className={styles.zoomImage}/>
-      </MapInteractionCSS>
+        <MapInteractionCSS>
+          <img src="poster/worldwide.jpg" width={'auto'} className={styles.zoomImage}/>
+        </MapInteractionCSS>
       </div>
-
     </div>
   )
 }
