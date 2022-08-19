@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Compendium</title>
         <meta name="description" content="Compendium" />
-        <link rel="icon" href="/hnee-green.png" />
+        <link rel="icon" href="../public/hnee-green.png" />
       </Head>
 
       <main className={styles.mainArticle}>
