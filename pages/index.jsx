@@ -41,7 +41,7 @@ export default function Home() {
                 Read more about it! &rarr;
              </a>
           </div>
-          <img src="/main-d.png" alt="doughnut" width="auto" id={styles.titleImage}/>
+          <img src="/main-d.png" alt="doughnut" height={'auto'} id={styles.titleImage}/>
 
         </div>
         <h2 className={styles.checkoutTitle}>Check out our inputs</h2>
