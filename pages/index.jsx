@@ -9,6 +9,10 @@ export default function Home() {
         <title>Compendium</title>
         <meta name="description" content="Compendium" />
         <link rel="icon" href="/hnee-green.png" />
+        <link
+          href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700"
+          rel="stylesheet"
+        />
       </Head>
 
       <main className={styles.main}>
