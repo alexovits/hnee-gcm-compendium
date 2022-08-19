@@ -88,12 +88,12 @@ export default function Home() {
             <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
             <p>Melanie Klawitter</p>
           </a>
-          <a href="/patagonia-melanie" className={styles.card}>
-            <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
-            <p>Melanie Klawitter</p>
+          <a href="/poster-1" className={styles.card}>
+            <h2>Who is Mr. WOrldwide</h2>
+            <p>Shanna Paul</p>
           </a>
           <a href="/patagonia-melanie" className={styles.card}>
-            <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
+            <h2>sdnfjksjndfksjndfk njsjk fashion industry: What can companies learn from Patagonia?</h2>
             <p>Melanie Klawitter</p>
           </a>
           <a href="/patagonia-melanie" className={styles.card}>

@@ -207,7 +207,10 @@
   border: 2px solid #afafaf;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 300px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover,
@@ -220,6 +223,7 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.1rem;
+  flex:1;
 }
 
 .card p {
@@ -302,14 +306,14 @@
   width: 80%;
 }
 
-.articleTitle{
+.articleTitle {
   align-self: center;
   text-align: center;
   font-weight: lighter;
   font-size: 2.5rem;
 }
 
-#articleDate{
+#articleDate {
   margin-left: -20px;
   font-weight: lighter;
   text-align: center;
@@ -382,7 +386,8 @@
   .card{
     margin: 0.8rem;
     padding: 1.3rem;
-    max-width: 280px;
+    width: 280px;
+    height: 200px;
   }
 
   .card h2{
@@ -425,7 +430,7 @@
   }
 
   .card{
-    max-width: 250px;
+    width: 250px;
   }
 
   .articleImageContainer span{
@@ -454,11 +459,24 @@
   }
 
   .card{
-    max-width: 80%;
+    width: 80%;
+    height: auto;
+  }
+
+  .articleTitle {
+    font-size: 2.2rem;
   }
 
   .articleContainer{
-    width: 80%;
+    width: 86%;
+  }
+
+  .articleContainer p {
+    font-size: 1rem;
+  }
+
+  .articleContainer > h2 {
+    font-size: 1.4rem;
   }
 }
 
@@ -473,6 +491,14 @@
 
   .articleImageContainer img {
     width: 94%;
+  }
+
+  .articleContainer p {
+    font-size: 0.9rem;
+  }
+
+  .articleContainer > h2 {
+    font-size: 1.3rem;
   }
 
 }

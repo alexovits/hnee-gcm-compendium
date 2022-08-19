@@ -21,6 +21,7 @@ export default function Home() {
           <img src="poster/worldwide.jpg" width={'auto'} className={styles.zoomImage}/>
         </MapInteractionCSS>
       </div>
+
     </div>
   )
 }
