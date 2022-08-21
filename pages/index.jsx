@@ -41,7 +41,7 @@ export default function Home() {
                 Read more about it! &rarr;
              </a>
           </div>
-          <img src="/main-d.png" alt="doughnut" height={'auto'} id={styles.titleImage}/>
+          <img src="/main-d-small.jpg" alt="doughnut" height={'auto'} id={styles.titleImage}/>
 
         </div>
         <h2 className={styles.checkoutTitle}>Check out our inputs</h2>
@@ -88,13 +88,13 @@ export default function Home() {
             <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
             <p>Melanie Klawitter</p>
           </a>
-          <a href="/poster-1" className={styles.card}>
-            <h2>Who is Mr. WOrldwide</h2>
-            <p>Shanna Paul</p>
+          <a href="/poster-bhutan" className={styles.card}>
+            <h2>Carbon Negative Country - Bhutan as a role model in climate action</h2>
+            <p>Valentina García</p>
           </a>
-          <a href="/patagonia-melanie" className={styles.card}>
-            <h2>sdnfjksjndfksjndfk njsjk fashion industry: What can companies learn from Patagonia?</h2>
-            <p>Melanie Klawitter</p>
+          <a href="/podcast-x" className={styles.card}>
+            <h2>Podcast about a topic</h2>
+            <p>John Doe</p>
           </a>
           <a href="/patagonia-melanie" className={styles.card}>
             <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>

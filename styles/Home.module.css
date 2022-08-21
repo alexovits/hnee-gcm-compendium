@@ -366,6 +366,24 @@
   width: 100%;
 }
 
+.videoResponsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin-bottom: 50px;
+}
+
+.videoResponsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*---------MEDIA QUERY----------*/
+
 @media (max-width: 1024px) {
   .titleDescription{
     font-size: 1rem;
@@ -491,14 +509,6 @@
 
   .articleImageContainer img {
     width: 94%;
-  }
-
-  .articleContainer p {
-    font-size: 0.9rem;
-  }
-
-  .articleContainer > h2 {
-    font-size: 1.3rem;
   }
 
 }

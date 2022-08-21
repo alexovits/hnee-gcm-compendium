@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div className={styles.mapContainer}>
         <MapInteractionCSS>
-          <img src="poster/worldwide.jpg" width={'auto'} className={styles.zoomImage}/>
+          <img src="poster/vale.jpeg" width={'auto'} className={styles.zoomImage}/>
         </MapInteractionCSS>
       </div>
 
