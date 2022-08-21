@@ -382,8 +382,9 @@
   position: absolute;
 }
 
-.spotify{
+.spotify {
   margin-bottom: 50px;
+  border-radius: 12px;
 }
 
 /*---------MEDIA QUERY----------*/
