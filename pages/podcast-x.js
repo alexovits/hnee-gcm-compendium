@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { MapInteractionCSS } from 'react-map-interaction';
 import YoutubeEmbed from "./YoutubeEmbed";
+import Spotify from 'react-spotify-embed';
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         <div className="App">
           <YoutubeEmbed embedId="qx8Gb_zwj8Q" />
         </div>
+        <Spotify wide link="https://open.spotify.com/track/1AObGJHBNGq23MkG3ZDjbJ?si=9e74036029444879"/>
       </div>
       </main>
 
