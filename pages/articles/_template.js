@@ -15,7 +15,7 @@ export default function Home() { return (
     <main className={styles.mainArticle}>
       <ArticleHeader/>
       <div className={styles.articleContainer}>
-        <h1 className={styles.articleTitle}>"Ecobarrios" in Bogotá - Towards a 'generous cities' strategy based on Abya Yala alternatives to development.</h1>
+        <h1 className={styles.articleTitle}>Title</h1>
         <p id={styles.articleDate}>Updated at 24.08.2022</p>
         <p id={styles.author}>By Ana Moreno</p>
         <div className={styles.divider}/>
@@ -33,17 +33,6 @@ export default function Home() { return (
         <div className={styles.articleImageContainer}>
           <img src="/ana-moreno/3_ Figure 2.jpg" alt="doughnut" height="auto" />
           <span>Fig.1. Tall buildings: Gentrification Bosque Calderon Neighborhood (El Tiempo, 2015)</span>
-        </div>
-
-        <h2>II. What is going on?</h2>
-        <h3>Looking at the trajectory: Bogotá and its Eastern Hills</h3>
-        <p>According to the National Administrative Statistics Department (DANE, 2021), the Colombian transition from a rural to an urban country was determined by migratory movements as a result of the armed conflict since the 20th century, where victims
-          of forced displacement and internal migrants came from the countryside to the peri-urban areas. DANE asserts, that the "population is forced to request shelter from relatives or to build houses with waste materials in areas that have a low access
-          to public services and, in many cases, are at risk of disaster" (DANE, 2021), by occupying land through invasions or informal market housing. </p>
-
-        <div className={styles.articleImageContainer}>
-          <img id={styles.narrowImage} src="/ana-moreno/6_ Figure 3.jpg" alt="doughnut" height="auto" />
-          <span>Fig.2. Minga: Indigenous word used now in urban activities. (2020)</span>
         </div>
 
         <h2>References</h2>
