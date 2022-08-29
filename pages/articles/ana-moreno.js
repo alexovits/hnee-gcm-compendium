@@ -194,7 +194,7 @@ export default function Home() { return (
           Ecobarrios experience inspired alternative ways of inhabiting urban spaces throughout the whole region. This has led to the Ecobarrios concept existing in countries like Mexico, Chile y Argentina. Likewise, Laura Esquivel (Casa Latina, 2022) asserts
           that Ecobarrios processes already exist in Brazil and other countries.</p>
 
-        <h2>Conclusion</h2>
+        <h2>III. Conclusion</h2>
         <p>Ecobarrios is a glocal strategy toward sustainability in Cities, being able not only to stop socio-ecological damage but also to regenerate the socio-ecological processes that allow life. Its evolution highlights its potential as a flow distribution
           design as well as a regenerative process design that is inset very well in the doughnut economy model, due to its daily actions contributing to the social foundation and planetary boundaries.</p>
         <p>The uniqueness of this concept is its strong communitarian approach that dialogues with other knowledge forms, such as the indigenous cosmovision, to resolve urban conflicts. </p>
