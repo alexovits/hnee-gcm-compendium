@@ -15,7 +15,7 @@ export default function Home() { return (
     <main className={styles.mainArticle}>
       <ArticleHeader/>
       <div className={styles.articleContainer}>
-        <h1 className={styles.articleTitle}>"Ecobarrios" in Bogotá - Towards a 'generous cities' strategy based on Abya Yala alternatives to development.</h1>
+        <h1 className={styles.articleTitle}>"Ecobarrios" in Bogotá - Towards a 'generous cities' strategy based on Abya Yala alternatives to development</h1>
         <p id={styles.articleDate}>Updated at 24.08.2022</p>
         <p id={styles.author}>By Ana Moreno</p>
         <div className={styles.divider}/>

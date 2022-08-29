@@ -84,37 +84,41 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a href="/patagonia-melanie" className={styles.card}>
+          <a href="/article/melanie" className={styles.card}>
             <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
             <p>Melanie Klawitter</p>
           </a>
-          <a href="/poster-bhutan" className={styles.card}>
+          <a href="/poster/vale" className={styles.card}>
             <h2>Carbon Negative Country - Bhutan as a role model in climate action</h2>
             <p>Valentina García</p>
+          </a>
+          <a href="/poster/krissi" className={styles.card}>
+            <h2>Education driving societal Transformation - the Project MakingAchange</h2>
+            <p>Ann-Kristin Knickmann</p>
+          </a>
+          <a href="/poster/kira" className={styles.card}>
+            <h2>Tiny Forests - Active reforestation for local transformation</h2>
+            <p>Kira Bastian</p>
+          </a>
+          <a href="/article/ana-maier" className={styles.card}>
+            <h2>How Costa Rica reversed deforestation – An environmental success story</h2>
+            <p>Ana Maier</p>
+          </a>
+          <a href="/article/ana-moreno" className={styles.card}>
+            <h2>"Ecobarrios" in Bogotá - Towards a 'generous cities' strategy</h2>
+            <p>Ana Moreno</p>
+          </a>
+          <a href="/article/juan-coka" className={styles.card}>
+            <h2>The city of change: a journey into the urban agriculture revolution in Berlin</h2>
+            <p>Juan Coka</p>
+          </a>
+          <a href="/article/marcel" className={styles.card}>
+            <h2>Pleistocene Park - Back to the Ice Age : How primeval ecosystems could mitigate climate change</h2>
+            <p>Marcel Bongratz</p>
           </a>
           <a href="/podcast-x" className={styles.card}>
             <h2>Podcast about a topic</h2>
             <p>John Doe</p>
-          </a>
-          <a href="/patagonia-melanie" className={styles.card}>
-            <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
-            <p>Melanie Klawitter</p>
-          </a>
-          <a href="/patagonia-melanie" className={styles.card}>
-            <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
-            <p>Melanie Klawitter</p>
-          </a>
-          <a href="/patagonia-melanie" className={styles.card}>
-            <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
-            <p>Melanie Klawitter</p>
-          </a>
-          <a href="/patagonia-melanie" className={styles.card}>
-            <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
-            <p>Melanie Klawitter</p>
-          </a>
-          <a href="/patagonia-melanie" className={styles.card}>
-            <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
-            <p>Melanie Klawitter</p>
           </a>
         </div>
       </main>
