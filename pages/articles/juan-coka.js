@@ -16,7 +16,7 @@ export default function Home() { return (
       <ArticleHeader/>
       <div className={styles.articleContainer}>
         <h1 className={styles.articleTitle}>The city of change: a journey into the urban agriculture revolution in Berlin</h1>
-        <p id={styles.articleDate}>Updated at 27.08.2022</p>
+        <p id={styles.articleDate}>Updated at 24.08.2022</p>
         <p id={styles.author}>By Juan Coka</p>
         <div className={styles.divider}/>
 
