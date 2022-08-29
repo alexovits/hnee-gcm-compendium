@@ -256,7 +256,10 @@
 .articleContainer > p {
   font-size: 1.1em;
   line-height: 1.7em;
-  text-indent: 20px
+  padding-left: 5px;
+  padding-right: 5px;
+
+  /* text-indent: 20px */
 }
 
 .articleContainer > h2 {
@@ -300,6 +303,10 @@
 
 .articleImageContainer img{
   width: 80%;
+}
+
+#narrowImage{
+  width: 50%;
 }
 
 #doughnutImage img{

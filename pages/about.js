@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import ArticleHeader from './ArticleHeader'
+
 
 export default function Home() {
   return (
@@ -12,11 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.mainArticle}>
-        <div className={styles.articleHeader}>
-          <a href="/">
-            <img src="/hnee.png" href="/" alt="hnee-logo" width="auto" id={styles.hneeArticleHeader}/>
-          </a>
-        </div>
+        <ArticleHeader/>
         <div className={styles.articleContainer}>
           <h1 className={styles.articleTitle}>Planetary Health</h1>
           <p id={styles.articleDate}>Updated at 23.07.2022</p>

@@ -25,7 +25,7 @@ export default function Home() {
 
           <div className={styles.articleImageContainer} id={styles.doughnutImage}>
             <img src="/personal-d/d-12.png" alt="doughnut" height="auto" className={styles.personalDoughnut}/>
-            <span>Fig.1 Doughnut showing dimesions affected by this subject</span>
+            <span>Doughnut showing dimesions affected by this subject</span>
           </div>
 
           <h2>I. Introduction</h2>
