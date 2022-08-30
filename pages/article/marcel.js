@@ -17,7 +17,7 @@ export default function Home() { return (
       <div className={styles.articleContainer}>
         <h1 className={styles.articleTitle}>Pleistocene Park - Back to the Ice Age : How primeval ecosystems could mitigate climate change</h1>
         <p id={styles.articleDate}>Updated at 27.08.2022</p>
-        <p id={styles.author}>By Marcel Bongratz</p>
+        <p id={styles.author}>By Marcel Bongartz</p>
         <div className={styles.divider}/>
 
         <div className={styles.articleImageContainer} id={styles.doughnutImage}>

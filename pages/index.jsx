@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
 
         <div className={styles.titleContainer}>
-          <img src="/hnee.png" alt="hnee-logo" width="auto" id={styles.hneeTitle}/>
+          <img src="/hnee_black.png" alt="hnee-logo" width="auto" id={styles.hneeTitle}/>
           <div className={styles.descCont}>
 
             <h1 className={styles.titleHeader}>Compendium on Planetary Boundaries</h1>
@@ -42,7 +42,6 @@ export default function Home() {
              </a>
           </div>
           <img src="/main-d.png" alt="doughnut" height={'auto'} id={styles.titleImage}/>
-
         </div>
         <h2 className={styles.checkoutTitle}>Check out our inputs</h2>
         <div className={styles.divider} id={styles.homePagedivider}></div>
@@ -114,7 +113,7 @@ export default function Home() {
           </a>
           <a href="/article/marcel" className={styles.card}>
             <h2>Pleistocene Park - Back to the Ice Age : How primeval ecosystems could mitigate climate change</h2>
-            <p>Marcel Bongratz</p>
+            <p>Marcel Bongartz</p>
           </a>
           <a href="/podcast-x" className={styles.card}>
             <h2>Podcast about a topic</h2>
