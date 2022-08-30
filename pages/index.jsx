@@ -115,6 +115,10 @@ export default function Home() {
             <h2>Pleistocene Park - Back to the Ice Age : How primeval ecosystems could mitigate climate change</h2>
             <p>Marcel Bongartz</p>
           </a>
+          <a href="/article/madeleine" className={styles.card}>
+            <h2>Challenges of managing forest reserves: case study of Atewa range forest reserve, Ghana</h2>
+            <p>Madeleine Maomou</p>
+          </a>
           <a href="/podcast-x" className={styles.card}>
             <h2>Podcast about a topic</h2>
             <p>John Doe</p>
