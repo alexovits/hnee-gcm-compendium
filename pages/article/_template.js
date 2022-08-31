@@ -2,7 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import ArticleHeader from '../ArticleHeader'
-
+/**
+[ ] Abilash + Kev udpate Dougnut
+[ ] Correcture: Marcel, Ana, Juan
+[ ] Ask Abilash, Till, Sarah for high res photos
+*/
 export default function Home() { return (
   <div className={styles.container}>
 
