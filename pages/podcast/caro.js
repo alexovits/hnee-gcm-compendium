@@ -20,20 +20,20 @@ export default function Podcast() {
           </a>
         </div>
         <div className={styles.articleContainer}>
-          <h1 className={styles.articleTitle}>Is China building roads good or bad? Hmmm, I wonder.</h1>
-          <p id={styles.articleDate}>Updated at 30.07.2022</p>
-          <p id={styles.author}>By John Doe</p>
+          <h1 className={styles.articleTitle}>How housing cooperatives contribute for a more sustainable life in Germany</h1>
+          <p id={styles.articleDate}>Updated at 30.08.2022</p>
+          <p id={styles.author}>By Caro Munkert</p>
           <div className={styles.divider}/>
 
           <div className={styles.articleImageContainer} id={styles.doughnutImage}>
-            <img src="/personal-d/d-12.png" alt="doughnut" height="auto" className={styles.personalDoughnut}/>
+            <img src="/personal-d/GCM personal donuts-20 Caro.png" alt="doughnut" height="auto" className={styles.personalDoughnut}/>
             <span>Fig.1 Doughnut showing dimesions affected by this subject</span>
           </div>
           <div className="App">
-            <YoutubeEmbed embedId="qx8Gb_zwj8Q" />
+            <YoutubeEmbed embedId="7aYcfU2i7zw" />
           </div>
         </div>
-        <iframe className={styles.spotify} src="https://open.spotify.com/embed/track/1AObGJHBNGq23MkG3ZDjbJ?utm_source=generator" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe className={styles.spotify} src="https://open.spotify.com/embed/episode/7sHfztHkdWyyz8uDqgeUuE?utm_source=generator" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </main>
     </div>
   )
