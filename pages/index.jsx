@@ -119,9 +119,41 @@ export default function Home() {
             <h2>Challenges of managing forest reserves: case study of Atewa range forest reserve, Ghana</h2>
             <p>Madeleine Maomou</p>
           </a>
-          <a href="/podcast-x" className={styles.card}>
-            <h2>Podcast about a topic</h2>
-            <p>John Doe</p>
+          <a href="/podcast/caro" className={styles.card}>
+            <h2>How housing cooperatives contribute for a more sustainable life in Germany</h2>
+            <p>Caro Munkert</p>
+          </a>
+          <a href="/podcast/juri" className={styles.card}>
+            <h2>Chinas Eco-Civilization and a green BRI - alternatives for sustainable development?</h2>
+            <p>Juri Häbler</p>
+          </a>
+          <a href="/podcast/mali" className={styles.card}>
+            <h2>Radio drama as a means to save the cross river Gorillas in Nigeria</h2>
+            <p>Mali Bruecker</p>
+          </a>
+          <a href="/podcast/lukas" className={styles.card}>
+            <h2>Health for Future: How does the climate crisis impact human health and what needs to be done about it?</h2>
+            <p>Lukas Kiefer</p>
+          </a>
+          <a href="/article/sarah" className={styles.card}>
+            <h2>“SAVE THE BEES", BUT WHICH ONES? </h2>
+            <p>Sarah Megnint</p>
+          </a>
+          <a href="/article/kevin" className={styles.card}>
+            <h2>The Economy of the Common Goods</h2>
+            <p>Kevin Essa</p>
+          </a>
+          <a href="/article/linda" className={styles.card}>
+            <h2>Seeking a safe and just space for water use in Germany</h2>
+            <p>Linda Schwarz</p>
+          </a>
+          <a href="/article/till" className={styles.card}>
+            <h2>Blue Economy in Bangladesh</h2>
+            <p>Till Odde Heitmann</p>
+          </a>
+          <a href="/article/abi" className={styles.card}>
+            <h2>Green Justice: Initial Reflections on the National Green Tribunal  of India</h2>
+            <p>Abilash Desu</p>
           </a>
         </div>
       </main>
