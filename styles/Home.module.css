@@ -310,6 +310,11 @@
   width: 80%;
 }
 
+.simpleLink{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 #narrowImage{
   width: 50%;
 }
