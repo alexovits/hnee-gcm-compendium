@@ -3,7 +3,8 @@ import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import ArticleHeader from '../ArticleHeader'
 /**
-[ ] Abilash + Kev udpate Dougnut
+[x] Kev udpate Dougnut
+[ ] Abilash udpate Dougnut
 [ ] Correcture: Marcel, Ana, Juan
 [ ] Ask Abilash, Till, Sarah for high res photos
 */
