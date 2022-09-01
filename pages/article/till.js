@@ -15,8 +15,8 @@ export default function Home() { return (
     <main className={styles.mainArticle}>
       <ArticleHeader/>
       <div className={styles.articleContainer}>
-        <h1 className={styles.articleTitle}>Blue Economy in Bangladesh -
-Recommendations for social foundations and defining ecosystem boundaries</h1>
+        <h1 className={styles.articleTitle}>Blue Economy in Bangladesh</h1>
+        <h1 className={styles.articleSubTitle}>Recommendations for social foundations and defining ecosystem boundaries</h1>
         <p id={styles.articleDate}>Updated at 31.08.2022</p>
         <p id={styles.author}>By Till Odde Heitmann</p>
         <div className={styles.divider}/>

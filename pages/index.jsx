@@ -136,11 +136,11 @@ export default function Home() {
             <p>Lukas Kiefer</p>
           </a>
           <a href="/article/sarah" className={styles.card}>
-            <h2>“SAVE THE BEES", BUT WHICH ONES? </h2>
+            <h2>“SAVE THE BEES", but which ones? </h2>
             <p>Sarah Megnint</p>
           </a>
           <a href="/article/kevin" className={styles.card}>
-            <h2>The Economy of the Common Goods</h2>
+            <h2>The economy for the common good - An economic model for the future</h2>
             <p>Kevin Essa</p>
           </a>
           <a href="/article/linda" className={styles.card}>

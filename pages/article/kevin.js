@@ -15,7 +15,8 @@ export default function Home() { return (
     <main className={styles.mainArticle}>
       <ArticleHeader/>
       <div className={styles.articleContainer}>
-        <h1 className={styles.articleTitle}>The Economy of the Common Goods</h1>
+        <h1 className={styles.articleTitle}>The economy for the common good</h1>
+        <h1 className={styles.articleSubTitle}>An economic model for the future</h1>
         <p id={styles.articleDate}>Updated at 31.08.2022</p>
         <p id={styles.author}>By Kevin Essa</p>
         <div className={styles.divider}/>
