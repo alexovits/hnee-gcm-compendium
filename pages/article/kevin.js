@@ -15,13 +15,14 @@ export default function Home() { return (
     <main className={styles.mainArticle}>
       <ArticleHeader/>
       <div className={styles.articleContainer}>
-        <h1 className={styles.articleTitle}>The Economy of the Common Goods</h1>
+        <h1 className={styles.articleTitle}>The economy for the common good</h1>
+        <h1 className={styles.articleSubTitle}>An economic model for the future</h1>
         <p id={styles.articleDate}>Updated at 31.08.2022</p>
         <p id={styles.author}>By Kevin Essa</p>
         <div className={styles.divider}/>
 
         <div className={styles.articleImageContainer} id={styles.doughnutImage}>
-          <img src="/personal-d/GCM personal donuts neu-23 Ana Moreno.png" alt="doughnut" height="auto" className={styles.personalDoughnut}/>
+          <img src="/personal-d/GCM personal donuts Kevin-33.png" alt="doughnut" height="auto" className={styles.personalDoughnut}/>
           <span>Doughnut showing dimesions affected by this subject</span>
         </div>
         <h2>I. Introduction</h2>
