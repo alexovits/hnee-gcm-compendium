@@ -129,8 +129,8 @@
 .readMoreAboutTitle:hover,
 .readMoreAboutTitle:focus,
 .readMoreAboutTitle:active {
-  color: rgba(0, 77, 61, 0.9);
-  background-color: #eee;
+  /* color: rgba(0, 77, 61, 0.9); */
+  background-color: rgba(0, 77, 61, 0.3);
 }
 
 
@@ -235,6 +235,39 @@
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+.card .cardType{
+  font-size: 0.7rem;
+  line-height: 1.5;
+  /* border: 0.1em solid #000; */
+  font-weight: 400;
+  border-radius: 8px;
+  align-self: baseline;
+  padding: 3px 6px;
+  margin-top: 2px;
+  margin-left: 8px;
+}
+
+.card div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card #podcastColorType{
+  background-color: rgba(46, 128, 181, 0.9);
+  color: #eee;
+}
+
+.card #articleColorType{
+  background-color: rgba(0, 77, 61, 0.9);
+  color: #eee;
+}
+
+.card #posterColorType{
+  background-color: rgba(222, 65, 89, 0.9);
+  color: #eee;
 }
 
 .logo {

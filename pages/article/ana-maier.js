@@ -47,7 +47,7 @@ export default function Home() { return (
         <p>Between 1997 and 2015 Costa Rica reduced 166 million tonnes of CO2e emissions (MtCO2e) due to deforestation. The land use sector in Costa Rica has for the first time become a carbon sink by absorbing about 5 million tCO² in 2014 (Climate Chance, 2020a).</p>
 
         <div className={styles.articleImageContainer}>
-          <img src="/ana-maier/2.png" alt="doughnut" height="auto" />
+          <img src="/ana-maier/3.png" alt="doughnut" height="auto" />
           <span>Fig.2. Historical series of emissions and forest absorptions in Costa Rica </span>
         </div>
 
@@ -56,7 +56,7 @@ export default function Home() { return (
         <p>Deforestation was one of the major threats to biodiversity loss, but today Costa Rica’s nature is well protected. Costa Rica is considered a pioneer in effective tropical forest conservation policies due to its success in reversing deforestation. The National System of Conservation Areas (SINAC) covers 25-28% of the country’s terrestrial area with 32 national parks and 230 other protected areas (Tafoya et al., 2020). </p>
 
         <div className={styles.articleImageContainer}>
-          <img src="/ana-maier/3.png" alt="doughnut" height="auto" />
+          <img src="/ana-maier/2.png" alt="doughnut" height="auto" />
           <span>Fig.3. Maier, A. (2020). Monteverde, Costa Rica 2020 </span>
         </div>
 

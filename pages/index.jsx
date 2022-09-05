@@ -85,75 +85,136 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/article/melanie" className={styles.card}>
             <h2>Towards a more sustainable fashion industry: What can companies learn from Patagonia?</h2>
-            <p>Melanie Klawitter</p>
+            <div>
+              <p>Melanie Klawitter</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
+          </a>
+          <a href="/article/simon" className={styles.card}>
+            <h2>The German Renewable Energy Sources Act (EEG)</h2>
+            <div>
+              <p>Simon Schreck</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
           </a>
           <a href="/poster/vale" className={styles.card}>
             <h2>Carbon Negative Country - Bhutan as a role model in climate action</h2>
-            <p>Valentina García</p>
+            <div>
+              <p>Valentina García</p>
+              <p id={styles.posterColorType} className={styles.cardType}>Poster</p>
+            </div>
           </a>
           <a href="/poster/krissi" className={styles.card}>
             <h2>Education driving societal Transformation - the Project MakingAchange</h2>
-            <p>Ann-Kristin Knickmann</p>
-          </a>
-          <a href="/poster/kira" className={styles.card}>
-            <h2>Tiny Forests - Active reforestation for local transformation</h2>
-            <p>Kira Bastian</p>
-          </a>
-          <a href="/article/ana-maier" className={styles.card}>
-            <h2>How Costa Rica reversed deforestation – An environmental success story</h2>
-            <p>Ana Maier</p>
-          </a>
-          <a href="/article/ana-moreno" className={styles.card}>
-            <h2>"Ecobarrios" in Bogotá - Towards a 'generous cities' strategy</h2>
-            <p>Ana Moreno</p>
-          </a>
-          <a href="/article/juan-coka" className={styles.card}>
-            <h2>The city of change: a journey into the urban agriculture revolution in Berlin</h2>
-            <p>Juan Coka</p>
-          </a>
-          <a href="/article/marcel" className={styles.card}>
-            <h2>Pleistocene Park - Back to the Ice Age : How primeval ecosystems could mitigate climate change</h2>
-            <p>Marcel Bongartz</p>
-          </a>
-          <a href="/article/madeleine" className={styles.card}>
-            <h2>Challenges of managing forest reserves: case study of Atewa range forest reserve, Ghana</h2>
-            <p>Madeleine Maomou</p>
+            <div>
+              <p>Ann-Kristin Knickmann</p>
+              <p id={styles.posterColorType} className={styles.cardType}>Poster</p>
+            </div>
           </a>
           <a href="/podcast/caro" className={styles.card}>
             <h2>How housing cooperatives contribute for a more sustainable life in Germany</h2>
-            <p>Caro Munkert</p>
+            <div>
+              <p>Caro Munkert</p>
+              <p id={styles.podcastColorType} className={styles.cardType}>Podcast</p>
+            </div>
           </a>
           <a href="/podcast/juri" className={styles.card}>
             <h2>Chinas Eco-Civilization and a green BRI - alternatives for sustainable development?</h2>
-            <p>Juri Häbler</p>
+            <div>
+              <p>Juri Häbler</p>
+              <p id={styles.podcastColorType} className={styles.cardType}>Podcast</p>
+            </div>
           </a>
-          <a href="/podcast/mali" className={styles.card}>
-            <h2>Radio drama as a means to save the cross river Gorillas in Nigeria</h2>
-            <p>Mali Bruecker</p>
+          <a href="/poster/kira" className={styles.card}>
+            <h2>Tiny Forests - Active reforestation for local transformation</h2>
+            <div>
+              <p>Kira Bastian</p>
+              <p id={styles.posterColorType} className={styles.cardType}>Poster</p>
+            </div>
           </a>
-          <a href="/podcast/lukas" className={styles.card}>
-            <h2>Health for Future: How does the climate crisis impact human health and what needs to be done about it?</h2>
-            <p>Lukas Kiefer</p>
+          <a href="/article/ana-maier" className={styles.card}>
+            <h2>How Costa Rica reversed deforestation – An environmental success story</h2>
+            <div>
+              <p>Ana Maier</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
           </a>
-          <a href="/article/sarah" className={styles.card}>
-            <h2>“SAVE THE BEES", but which ones? </h2>
-            <p>Sarah Megnint</p>
+          <a href="/article/ana-moreno" className={styles.card}>
+            <h2>"Ecobarrios" in Bogotá - Towards a 'generous cities' strategy</h2>
+            <div>
+              <p>Ana Moreno</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
           </a>
-          <a href="/article/kevin" className={styles.card}>
-            <h2>The economy for the common good - An economic model for the future</h2>
-            <p>Kevin Essa</p>
+          <a href="/article/juan-coka" className={styles.card}>
+            <h2>The city of change: a journey into the urban agriculture revolution in Berlin</h2>
+            <div>
+              <p>Juan Coka</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
           </a>
-          <a href="/article/linda" className={styles.card}>
-            <h2>Seeking a safe and just space for water use in Germany</h2>
-            <p>Linda Schwarz</p>
+          <a href="/article/marcel" className={styles.card}>
+            <h2>Pleistocene Park - Back to the Ice Age : How primeval ecosystems could mitigate climate change</h2>
+            <div>
+              <p>Marcel Bongartz</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
           </a>
-          <a href="/article/till" className={styles.card}>
-            <h2>Blue Economy in Bangladesh</h2>
-            <p>Till Odde Heitmann</p>
+          <a href="/article/madeleine" className={styles.card}>
+            <h2>Challenges of managing forest reserves: case study of Atewa range forest reserve, Ghana</h2>
+            <div>
+              <p>Madeleine Maomou</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
           </a>
           <a href="/article/abi" className={styles.card}>
             <h2>Green Justice: Initial Reflections on the National Green Tribunal  of India</h2>
-            <p>Abilash Desu</p>
+            <div>
+              <p>Abilash Desu</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
+          </a>
+          <a href="/podcast/mali" className={styles.card}>
+            <h2>Radio drama as a means to save the cross river Gorillas in Nigeria</h2>
+            <div>
+              <p>Mali Bruecker</p>
+              <p id={styles.podcastColorType} className={styles.cardType}>Podcast</p>
+            </div>
+          </a>
+          <a href="/podcast/lukas" className={styles.card}>
+            <h2>Health for Future: How does the climate crisis impact human health and what needs to be done about it?</h2>
+            <div>
+              <p>Lukas Kiefer</p>
+              <p id={styles.podcastColorType} className={styles.cardType}>Podcast</p>
+            </div>
+          </a>
+          <a href="/article/sarah" className={styles.card}>
+            <h2>“SAVE THE BEES", but which ones? </h2>
+            <div>
+              <p>Sarah Megnint</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
+          </a>
+          <a href="/article/kevin" className={styles.card}>
+            <h2>The economy for the common good - An economic model for the future</h2>
+            <div>
+              <p>Kevin Essa</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
+          </a>
+          <a href="/article/linda" className={styles.card}>
+            <h2>Seeking a safe and just space for water use in Germany</h2>
+            <div>
+              <p>Linda Schwarz</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
+          </a>
+          <a href="/article/till" className={styles.card}>
+            <h2>Blue Economy in Bangladesh</h2>
+            <div>
+              <p>Till Odde Heitmann</p>
+              <p id={styles.articleColorType} className={styles.cardType}>Article</p>
+            </div>
           </a>
         </div>
       </main>
