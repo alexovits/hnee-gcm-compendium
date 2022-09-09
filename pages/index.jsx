@@ -34,7 +34,7 @@ export default function Home() {
              boundaries.
 
             The GCM Class of 2021 have collected analyses and impressions
-             on 27 different projects around the world that embody the
+             on 19 different projects around the world that embody the
              socio-ecological transformation potential.
              </p>
              <a className={styles.readMoreAboutTitle} href="/about">

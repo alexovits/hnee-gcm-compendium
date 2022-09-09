@@ -31,7 +31,7 @@ export default function Home() { return (
         <p></p>
 
         <div className={styles.articleImageContainer}>
-          <img id={styles.narrowImage} src="/simon/4.png" alt="doughnut" height="auto" />
+          <img src="/simon/4.png" alt="doughnut" height="auto" />
           <span>Fig.1. (a) Share of renewable electricity production in different countries and in Europe from 1985 until today. (b) Renewable energy generation for different sources in Germany from 1985 until today. Own creation with data taken from (Ritchie, 2020).</span>
         </div>
 
@@ -68,7 +68,7 @@ export default function Home() { return (
         <p>Despite some flaws and imperfections, the EEG can certainly be framed as a success story. It has boosted the deployment of renewable energies in Germany (compare Figure 1 above) and at the same time achieved a significant reduction in production cost of many renewable technologies as can be seen in Figure 2. In particular the reduced production costs enabled the market entry for these technologies as they are now competitive with conventional power sources even without the support mechanisms of the EEG. (Römermann & Kemfert, 2020) The associated technological developments were strongly driven by the German EEG, but obviously these technologies are being applied worldwide now. In addition to the technological developments that leave their impact internationally also the EEG itself has been ‘exported’ into numerous countries and today there are more than 100 countries that have adopted renewable energy acts that are based on the mechanisms of the EEG. (Römermann & Kemfert, 2020)</p>
         <div className={styles.articleImageContainer}>
           <img src="/simon/3.png" alt="doughnut" height="auto" />
-          <span>Fig.3. Levelized cost of electricity for new sloar and wind versus running cost of existing coal- and gas-fired power plants, 2014-2021. Figure taken from (Enkhardt, 2021)</span>
+          <span>Fig.2. Levelized cost of electricity for new sloar and wind versus running cost of existing coal- and gas-fired power plants, 2014-2021. Figure taken from (Enkhardt, 2021)</span>
         </div>
 
         <h2>References</h2>
